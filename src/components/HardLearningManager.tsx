@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import useLocalStorage from '../hooks/useLocalStorage';
 import bacteriesData from '../bacteries.json';
 
@@ -28,8 +28,11 @@ interface CardView {
   isReversed: boolean;
 }
 
+type LearningMode = 'normal' | 'reversed' | 'random';
+
 const HardLearningManager = () => {
   const [deckProportion, setDeckProportion] = useLocalStorage<number>('deck-proportion', 100);
+  const [learningMode, setLearningMode] = useLocalStorage<LearningMode>('learning-mode', 'normal');
   const [selectedCards] = useState(() => {
     const totalCards = bacteriesData.length;
     const cardsToInclude = Math.floor((totalCards * deckProportion) / 100);
@@ -60,6 +63,17 @@ const HardLearningManager = () => {
   const [sessionStreak, setSessionStreak] = useState(0);
   const [isReversedMode, setIsReversedMode] = useState(false);
   const [lastSeenIndices] = useState<Set<number>>(new Set());
+
+  useEffect(() => {
+    // Met à jour isReversedMode en fonction du mode d'apprentissage
+    if (learningMode === 'normal') {
+      setIsReversedMode(false);
+    } else if (learningMode === 'reversed') {
+      setIsReversedMode(true);
+    } else if (learningMode === 'random') {
+      setIsReversedMode(Math.random() < 0.5);
+    }
+  }, [learningMode, currentCardIndex]);
 
   // Fonction pour créer une vue de carte (normale ou inversée)
   const createCardView = (bacterie: typeof bacteriesData[0], reversed: boolean): CardView => {
@@ -111,7 +125,7 @@ const HardLearningManager = () => {
     const now = Date.now();
     const sortedCards = cardStatuses
       .map((status, index) => ({ status, index }))
-      .filter(card => selectedCards.has(card.index)) // Filtrer selon la proportion choisie
+      .filter(card => selectedCards.has(card.index))
       .filter(card => !lastSeenIndices.has(card.index))
       .sort((a, b) => {
         if (a.status.difficulty === null) return -1;
@@ -135,7 +149,6 @@ const HardLearningManager = () => {
       lastSeenIndices.delete(oldestCard);
     }
 
-    setIsReversedMode(Math.random() < 0.5);
     return nextIndex;
   };
 
@@ -207,6 +220,22 @@ const HardLearningManager = () => {
     setCurrentCardIndex(getNextCardIndex());
   };
 
+  const cycleMode = () => {
+    setLearningMode(current => {
+      switch (current) {
+        case 'normal':
+          return 'reversed';
+        case 'reversed':
+          return 'random';
+        case 'random':
+          return 'normal';
+        default:
+          return 'normal';
+      }
+    });
+    setShowAnswer(false);
+  };
+
   const stats = {
     total: selectedCards.size,
     easy: cardStatuses.filter(s => selectedCards.has(cardStatuses.indexOf(s)) && s.difficulty === 'easy').length,
@@ -268,6 +297,8 @@ const HardLearningManager = () => {
     handleDifficulty,
     stats,
     isReversedMode,
+    learningMode,
+    cycleMode,
     resetProgress,
     changeDeckProportion
   };
