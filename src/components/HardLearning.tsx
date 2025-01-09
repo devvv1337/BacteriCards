@@ -2,6 +2,9 @@ import { motion, AnimatePresence } from 'framer-motion';
 import { useState, useEffect } from 'react';
 import HardLearningManager from './HardLearningManager';
 import FlashCard from './FlashCard';
+import { FaCheck, FaRedo } from 'react-icons/fa';
+import { IoMdClose } from 'react-icons/io';
+import { MdKeyboardArrowDown } from 'react-icons/md';
 
 const HardLearning = () => {
   const {
@@ -11,11 +14,15 @@ const HardLearning = () => {
     handleDifficulty,
     stats,
     isReversedMode,
-    resetProgress
+    resetProgress,
+    changeDeckProportion
   } = HardLearningManager();
 
   const [showResetConfirm, setShowResetConfirm] = useState(false);
   const [showMasteryModal, setShowMasteryModal] = useState(false);
+  const [showDeckSettings, setShowDeckSettings] = useState(false);
+
+  const proportionOptions = [25, 50, 75, 100];
 
   useEffect(() => {
     if (stats.isFullyMastered && !showMasteryModal) {
@@ -157,6 +164,86 @@ const HardLearning = () => {
             </motion.div>
           </div>
         )}
+
+        {/* Deck Settings */}
+        <div className="mb-8">
+          <div className="flex justify-between items-center mb-4">
+            <h1 className="text-2xl font-bold text-[#BB86FC]">Mode Apprentissage</h1>
+            <div className="relative">
+              <button
+                onClick={() => setShowDeckSettings(!showDeckSettings)}
+                className="flex items-center gap-2 px-4 py-2 bg-[#1F1F1F] rounded-lg hover:bg-[#2F2F2F] transition-colors"
+              >
+                <span>{stats.deckProportion}% du deck</span>
+                <MdKeyboardArrowDown className={`transform transition-transform ${showDeckSettings ? 'rotate-180' : ''}`} />
+              </button>
+              {showDeckSettings && (
+                <motion.div
+                  initial={{ opacity: 0, y: -10 }}
+                  animate={{ opacity: 1, y: 0 }}
+                  exit={{ opacity: 0, y: -10 }}
+                  className="absolute right-0 mt-2 py-2 w-48 bg-[#1F1F1F] rounded-lg shadow-lg z-10"
+                >
+                  {proportionOptions.map((proportion) => (
+                    <button
+                      key={proportion}
+                      onClick={() => {
+                        changeDeckProportion(proportion);
+                        setShowDeckSettings(false);
+                      }}
+                      className={`w-full px-4 py-2 text-left hover:bg-[#2F2F2F] transition-colors flex items-center justify-between ${
+                        stats.deckProportion === proportion ? 'text-[#BB86FC]' : ''
+                      }`}
+                    >
+                      {proportion}% du deck
+                      {stats.deckProportion === proportion && (
+                        <FaCheck className="text-[#BB86FC]" />
+                      )}
+                    </button>
+                  ))}
+                </motion.div>
+              )}
+            </div>
+          </div>
+
+          {/* Barre de progression */}
+          <div className="mb-4">
+            <div className="flex justify-between items-center mb-2">
+              <span className="text-sm text-gray-400">
+                {stats.masteredCards} / {stats.total} cartes maîtrisées
+              </span>
+              <span className="text-sm text-gray-400">{stats.progressPercentage}%</span>
+            </div>
+            <div className="h-2 bg-[#1F1F1F] rounded-full overflow-hidden">
+              <motion.div
+                initial={{ width: 0 }}
+                animate={{ width: `${stats.progressPercentage}%` }}
+                transition={{ duration: 0.5 }}
+                className="h-full bg-[#BB86FC] rounded-full"
+              />
+            </div>
+          </div>
+
+          {/* Stats détaillées */}
+          <div className="grid grid-cols-2 sm:grid-cols-4 gap-4">
+            <div className="bg-[#1F1F1F] p-4 rounded-lg">
+              <div className="text-sm text-gray-400">Faciles</div>
+              <div className="text-xl font-bold text-[#BB86FC]">{stats.easy}</div>
+            </div>
+            <div className="bg-[#1F1F1F] p-4 rounded-lg">
+              <div className="text-sm text-gray-400">Moyennes</div>
+              <div className="text-xl font-bold text-yellow-500">{stats.medium}</div>
+            </div>
+            <div className="bg-[#1F1F1F] p-4 rounded-lg">
+              <div className="text-sm text-gray-400">Difficiles</div>
+              <div className="text-xl font-bold text-red-500">{stats.hard}</div>
+            </div>
+            <div className="bg-[#1F1F1F] p-4 rounded-lg">
+              <div className="text-sm text-gray-400">Non vues</div>
+              <div className="text-xl font-bold text-gray-400">{stats.unseen}</div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   );

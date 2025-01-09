@@ -10,8 +10,9 @@ interface CardStatus {
   streak: number;
   failureCount: number;
   lastInterval: number;
-  reverseStreak: number;  // Streak pour le mode inversé
-  reverseFailureCount: number;  // Échecs pour le mode inversé
+  reverseStreak: number;
+  reverseFailureCount: number;
+  isIncluded: boolean;
 }
 
 interface CardView {
@@ -28,8 +29,19 @@ interface CardView {
 }
 
 const HardLearningManager = () => {
+  const [deckProportion, setDeckProportion] = useLocalStorage<number>('deck-proportion', 100);
+  const [selectedCards] = useState(() => {
+    const totalCards = bacteriesData.length;
+    const cardsToInclude = Math.floor((totalCards * deckProportion) / 100);
+    return new Set(
+      [...Array(totalCards).keys()]
+        .sort(() => Math.random() - 0.5)
+        .slice(0, cardsToInclude)
+    );
+  });
+
   const [cardStatuses, setCardStatuses] = useLocalStorage<CardStatus[]>('card-statuses', 
-    bacteriesData.map(b => ({
+    bacteriesData.map((b, index) => ({
       id: b.Noms,
       difficulty: null,
       lastSeen: Date.now(),
@@ -38,7 +50,8 @@ const HardLearningManager = () => {
       failureCount: 0,
       lastInterval: 0,
       reverseStreak: 0,
-      reverseFailureCount: 0
+      reverseFailureCount: 0,
+      isIncluded: selectedCards.has(index)
     }))
   );
 
@@ -46,6 +59,7 @@ const HardLearningManager = () => {
   const [showAnswer, setShowAnswer] = useState(false);
   const [sessionStreak, setSessionStreak] = useState(0);
   const [isReversedMode, setIsReversedMode] = useState(false);
+  const [lastSeenIndices] = useState<Set<number>>(new Set());
 
   // Fonction pour créer une vue de carte (normale ou inversée)
   const createCardView = (bacterie: typeof bacteriesData[0], reversed: boolean): CardView => {
@@ -97,6 +111,8 @@ const HardLearningManager = () => {
     const now = Date.now();
     const sortedCards = cardStatuses
       .map((status, index) => ({ status, index }))
+      .filter(card => selectedCards.has(card.index)) // Filtrer selon la proportion choisie
+      .filter(card => !lastSeenIndices.has(card.index))
       .sort((a, b) => {
         if (a.status.difficulty === null) return -1;
         if (b.status.difficulty === null) return 1;
@@ -106,8 +122,19 @@ const HardLearningManager = () => {
         return bScore - aScore;
       });
 
+    if (sortedCards.length === 0) {
+      lastSeenIndices.clear();
+      return getNextCardIndex();
+    }
+
     const nextIndex = sortedCards[0].index;
-    // 50% de chance de passer en mode inversé pour la prochaine carte
+    lastSeenIndices.add(nextIndex);
+    
+    if (lastSeenIndices.size > 3) {
+      const oldestCard = Array.from(lastSeenIndices)[0];
+      lastSeenIndices.delete(oldestCard);
+    }
+
     setIsReversedMode(Math.random() < 0.5);
     return nextIndex;
   };
@@ -181,30 +208,36 @@ const HardLearningManager = () => {
   };
 
   const stats = {
-    total: cardStatuses.length,
-    easy: cardStatuses.filter(s => s.difficulty === 'easy').length,
-    medium: cardStatuses.filter(s => s.difficulty === 'medium').length,
-    hard: cardStatuses.filter(s => s.difficulty === 'hard').length,
-    unseen: cardStatuses.filter(s => s.difficulty === null).length,
+    total: selectedCards.size,
+    easy: cardStatuses.filter(s => selectedCards.has(cardStatuses.indexOf(s)) && s.difficulty === 'easy').length,
+    medium: cardStatuses.filter(s => selectedCards.has(cardStatuses.indexOf(s)) && s.difficulty === 'medium').length,
+    hard: cardStatuses.filter(s => selectedCards.has(cardStatuses.indexOf(s)) && s.difficulty === 'hard').length,
+    unseen: cardStatuses.filter(s => selectedCards.has(cardStatuses.indexOf(s)) && s.difficulty === null).length,
     currentStreak: sessionStreak,
-    averageStreak: Math.round(cardStatuses.reduce((acc, curr) => 
-      acc + curr.streak + curr.reverseStreak, 0) / (cardStatuses.length * 2)),
+    averageStreak: Math.round(cardStatuses
+      .filter(s => selectedCards.has(cardStatuses.indexOf(s)))
+      .reduce((acc, curr) => acc + curr.streak + curr.reverseStreak, 0) / (selectedCards.size * 2)),
     masteredCards: cardStatuses.filter(s => 
-      s.difficulty === 'easy' && s.timesReviewed >= 2
+      selectedCards.has(cardStatuses.indexOf(s)) &&
+      s.difficulty === 'easy' && 
+      s.timesReviewed >= 2
     ).length,
     progressPercentage: Math.round((cardStatuses.filter(s => 
-      s.difficulty === 'easy' && s.timesReviewed >= 2
-    ).length / cardStatuses.length) * 100),
-    isFullyMastered: cardStatuses.every(s => 
-      s.difficulty === 'easy' && s.timesReviewed >= 2
-    )
+      selectedCards.has(cardStatuses.indexOf(s)) &&
+      s.difficulty === 'easy' && 
+      s.timesReviewed >= 2
+    ).length / selectedCards.size) * 100),
+    isFullyMastered: cardStatuses
+      .filter(s => selectedCards.has(cardStatuses.indexOf(s)))
+      .every(s => s.difficulty === 'easy' && s.timesReviewed >= 2),
+    deckProportion
   };
 
   const currentCard = createCardView(bacteriesData[currentCardIndex], isReversedMode);
 
   const resetProgress = () => {
     setCardStatuses(
-      bacteriesData.map(b => ({
+      bacteriesData.map((b, index) => ({
         id: b.Noms,
         difficulty: null,
         lastSeen: Date.now(),
@@ -213,13 +246,19 @@ const HardLearningManager = () => {
         failureCount: 0,
         lastInterval: 0,
         reverseStreak: 0,
-        reverseFailureCount: 0
+        reverseFailureCount: 0,
+        isIncluded: selectedCards.has(index)
       }))
     );
     setSessionStreak(0);
     setCurrentCardIndex(0);
     setShowAnswer(false);
     setIsReversedMode(false);
+  };
+
+  const changeDeckProportion = (newProportion: number) => {
+    setDeckProportion(newProportion);
+    window.location.reload(); // Recharger pour réinitialiser avec la nouvelle proportion
   };
 
   return {
@@ -229,7 +268,8 @@ const HardLearningManager = () => {
     handleDifficulty,
     stats,
     isReversedMode,
-    resetProgress
+    resetProgress,
+    changeDeckProportion
   };
 };
 
