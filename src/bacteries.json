@@ -1,0 +1,498 @@
+[
+    {
+        "Noms": "Moraxella Catarrhalis",
+        "Localisation": "Sinus, Oreille moyenne",
+        "Symptomes maladies": "Patients prédisposés : Bronchite exacerbations de BPCO, bronchopneumonie. Sains: Otite moyenne, sinusite",
+       "Spécificités Diagnostic": "Diplocoque aérobie. Commensal chez l'humain, pathogène opportuniste. 90% produisent de la bêta-lactamases → résistance ampicilline. Diagnostic: Sinusite. Difficile, invasif, interprétation complexe. Culture polymicrobienne. Prélèvement : Aspiration ou ponction au niveau du méat moyen. Plus rarement des biopsies.  Transport à température ambiante et rapide",
+        "Traitement Prévention": "Macrolides et cotrimoxazole. Résistance à l'ampicilline"
+    },
+    {
+        "Noms": "Haemophilus Influenza",
+        "Localisation": "Oreille moyenne, Sinus, Épiglotte, Flore respiratoire",
+        "Symptomes maladies":"Conjonctivite, pathologies ORL, épiglotte aiguë. H. Influenza Type B : Cellulite et gonflement des tissus supra-glottiques jusqu'à obstruction des voies aériennes → Mort.",
+        "Spécificités Diagnostic": "- Coccobacille. Production d'endoprotéases contre les IgA1. Ne pousse pas sur du sang mais uniquement sur gélose chocolat. Diagnostic: Clinique, laryngoscopie ou endoscopie nasale. Genre: Haemophilus. Anaérobie facultatif. Immobile. Croissance difficile nécessitant facteur X et facteur V (gélose chocolat). Espèce diverses et commensales des muqueuses de l'homme et des animaux. Haemophilus Influenzae : Souches avec ou sans capsule (sans capsule = peu virulente). Transmission par contact direct et gouttelettes. Exclusivement chez l'homme",
+        "Traitement Prévention": "Résistance variable à la pénicilline (Production de bêta-lactamases). Prévention: Vaccins. Antibioprophylaxie : Rifampicine"
+    },
+    {
+        "Noms": "Arcanobacterium Haemolyticum",
+        "Localisation": "Pharynx",
+        "Symptomes maladies": "Pharyngite, Abcès peritonsiliaire, Éruption cutanée ressemblant à la scarlatine",
+        "Spécificités Diagnostic":"Bacille, Beta-hémolytique, Catalase négative",
+        "Traitement Prévention": "Macrolides"
+    },
+   {
+        "Noms": "Fusubacterium",
+        "Localisation": "Cavité buccale, Intestin, Vagin",
+        "Symptomes maladies": "Angine, abcès peritonsillaire, infection de l'espace de cou profond et de l'oreille, sinusite. Angine ulcéronécrotique de Vincent par mauvaise hygiène buccale. F. Necrophorum : Au niveau de la tête et cou",
+        "Spécificités Diagnostic": "Bacille fusiforme et anaérobies stricts. Commensale de la cavité buccale, intestinale et vaginale. F. Nucleatum : espèce orale clé dans la maturation de biofilms impliqués dans la pathologie periodontale. F. Necrophorum : Large variété d'infections. Peut donner des complications à niveau intracrânien et engendrer des infections systémiques. Bacille immobile non sporulé. Multiplication extracellulaire capable de résister à la phagocytose",
+        "Traitement Prévention": "Pénicilline (amoxicilline), métronidazole en cas d'allergie"
+    },
+     {
+        "Noms": "Cornynebacterium Diphteriae",
+        "Localisation": "Oropharynx",
+         "Symptomes maladies": "- Tapis de polynucléaire et fibrine dans l'oropharynx. Diphtérie pharyngée et nasale : Fausse membrane, adhérentes, extensives. Toxicité qui donne angine pseudomembraneuse et des adénopathies satellites volumineuses (Cou proconsulaire). Diphtérie laryngée et trachéo-bronchique : Asphyxie. Myocardite et polyneuropathie périphérique. -Diphtérie cutanée : Transmissible",
+       "Spécificités Diagnostic": "- Disposé en lettres chinoises. Pénétration par voie respiratoire (voire cutanée). Incubation courte et multiplication locale. Production d'une exotoxine : syndrome toxinique de 1-3 semaines après le début des symptômes. 3 espèces : C Diphteriae: réservoir humain transmis par contact direct. Produit une toxine AB → fixation sur neurones, myocarde et cellules rénales. - C. Ulcerans : animaux. - C. Pseudotuberculosis : zoonoses. Diagnostic: Culture sur milieu sélectif + PCR pour détection de gène tox producteur de toxine",
+        "Traitement Prévention":"Amoxicilline, macrolide, antitoxine, soins. Prévention : Vaccin"
+     },
+     {
+        "Noms": "Bordetella Pertussis",
+        "Localisation": "Tractus respiratoire",
+        "Symptomes maladies": "Coqueluche (Maladie contagieuse par des gouttelettes respiratoires émises au cours de la toux ou d'éternuements). Voir dia pour plus de détails.",
+        "Spécificités Diagnostic": "- Coccobacille aérobie à croissance difficile. Plusieurs espèces : B. pertussis (coqueluche), B. parapertussis, B Bronchiseptica (bronchites). - Seulement chez l'humain. Production d'adhésines : protéines hémagglutinines filamenteuses et pertactines permettant l'adhésion aux membranes de cellules ciliées dans la trachée. Fortement immunogènes et sont utilisées dans les vaccins actuel contre la coqueluche. - Toxines coqueluche : Inactive G1A, une protéine qui contrôle l'activité de l'Adénylate Cyclase = niveau accrus d'AMPc avec augmentation de secrétions respiratoire et la production de mucus. Empêche la migration des monocytes et la phagocytose.",
+        "Traitement Prévention": "Traitement de support pour la maladie. Macrolides clarithromycine ou azithromycine. Prévention : Vaccination systématique"
+    },
+    {
+        "Noms": "Enterococcus",
+       "Localisation": "Intestins",
+       "Symptomes maladies":"Infections urinaires, intraabdominales et bactériémie/endocardite subaiguë.",
+       "Spécificités Diagnostic":"Coque en petite chaînettes, catalase négative. E. Faecalis (espèce prédominante dans l'intestin) et E. Faecium. Résistance aux sels biliaires. Commensaux intestinaux. Ils peuvent adhérer et survire pendant des périodes prolongées dans les surfaces à cause de la production de biofilms et sont naturellement très résistants. Les souches résistances à la vancomycine (possèdent le gène VanA) sont très épidémiques et sont associées à une mortalité et morbidité élevée. La résistance aux glycopeptides est présente de forme naturelle chez d'autres espèces plus rares comme E. Gallinarum et E. casseliflavus",
+        "Traitement Prévention":"Résistance naturelle : céphalosporines, lincosamides (clindamycine, macrolides). Résistance acquise : pénicilline (mutation), glycopeptides (transposon), gentamicine (transoposon). - E Faecallis et Faecium : majorités sensibles à l'ampicilline. Naturellement résistantes aux beta-lactame. ATB : macrolides, fluoroquinolones ou rifampicine."
+    },
+     {
+        "Noms": "Legionella Pneumophila",
+        "Localisation":"Eaux douces, environnement chauds et humides",
+        "Symptomes maladies": "Légionellose: Pneumonie sévère aiguë, confusions, troubles digestifs et neurologiques. Cytolyse hépatique, hyponatrémie et atteinte rénale.",
+        "Spécificités Diagnostic": "-Bacille flagellé. Habite naturellement dans l'eau douce. Elle se développe à 45°C mais meurt quand la température excède 70°C. Hôte habituel : amibes. Incubation de 2 à 10 jours",
+        "Traitement Prévention": "Naturellement résistantes aux beta-lactame. ATB : macrolides, fluoroquinolones ou rifampicine. Prévention : Déclaration obligatoire"
+    },
+    {
+        "Noms":"Burkholderia Cepacia Complexe",
+        "Localisation":"Environnement hospitalier",
+        "Symptomes maladies":"Mucoviscidose",
+        "Spécificités Diagnostic": "Diagnostic: PCR, culture, détection d'Ag soluble urinaires, sérologie, immunofluorescence. - Culture difficile en milieu BCYE. Bacille non fermentant. Grande capacité d'adaptation : survie dans des environnements hostiles. 18 espèces dont les plus fréquentes sont B. Multivorans, B. Cenocepacia représentant 80% des souches isolées dans la mucoviscidose. - Le milieu BSCA rendu sélectif par la présence de gentamicine et de polymixine permet une croissance plus rapide de B. Cepacia",
+         "Traitement Prévention":"Intrinsèquement résistantes à de nombreuses classes d'ATB et antiseptiques (Colisitine-polymixine)"
+     },
+    {
+      "Noms": "Stenotrophomonas Maltophilia",
+      "Localisation":"Eau et sol",
+      "Symptomes maladies":"Maladies pulmonaires, septicémies",
+      "Spécificités Diagnostic":"Bacille non fermentant aérobie strict. Pathogène opportuniste (immunodéprimé, transplantés, mucoviscidose)",
+        "Traitement Prévention":"Naturellement résistant aux carbapénèmes mais sensibles aux cotrimoxazole"
+    },
+    {
+      "Noms":"Pseudomonas Aeruginosa",
+      "Localisation":"Organisme ubiquitaire, saprophyte aquatique, conditions physiques variées",
+      "Symptomes maladies":"Infections plaies, folliculites, otite externe (nageur) et interne chronique ou maligne (diabétique), conjonctivite (collyre infecté). Mucoviscidose. Ecthyma Gangrenosum: Infection rare mais chez les patients immunodéprimés → Pustules hémorragiques avec évolution vers ulcères nécrotiques. Infections acquises à l'hôpital : pneumonies, bactériémies et",
+     "Spécificités Diagnostic": "Bacille aérobie strict. Incapable de fermenter le glucose. Mobile grâce à un flagelle polaire. Opportunistes pour les immunodéprimés. Pathogène pulmonaire d'acquisition communautaire dans le cadre de la mucoviscidose. Mortalité et morbidité importantes, liées à la production d'endo-, exotoxines et d'enzymes protéolytiques Facteurs de virulence : Cellulaire : Molécule d'adhésion (Lectine PAIL-PAIIL, pili de type IV, LPS capsulaire, alignate slime). Flagelle unique polaire.",
+      "Traitement Prévention":"Naturellement résistant contre amoxicilline/clavulanate , céphalosporines 1 et 2e génération, erythromycotrimoxazole cine cefuroxime, tétracycline. Résistance grâce à une membrane ext. peu perméable, +++ système d'efflux, production d'enzyme"
+    },
+     {
+        "Noms": "Propionibacterium Acnes",
+        "Localisation": "Sol et air, aliments (via spores)",
+         "Symptomes maladies": "Infections urinaires, sinusite. 4º cause d'infection nosocomiale. 2ª cause de pneumonies nosocomiale (mortalité de 40-50%) 3º cause d'infections urinaires nosocomiales. Bactériémie (2-6%) : mortalité 5-50%. Acné. Infection de prothèses, enophtalmie, méningite chronique, endocardites après prothèse valvulaire.",
+       "Spécificités Diagnostic": "- Propriétés qui empêchent la phagocytose (Capsule, slime, LPS). Facteurs extracellulaires : Toxines : système de sécrétion I, III, VI. Protéases: hémolysine, exotoxine A, exo-enzyme S, pyocyanine. Quorum sensing : Coordination de la sécrétion des facteurs de virulence par le collectif bactérien. Bacille anaérobie non sporogène. Catalase +. Croissance lente (2-5 jours). Infections en profondeurs lors des actes chirurgicaux",
+        "Traitement Prévention":"- Genre Bacillus : Bacille sporulé aérobie. Ubiquitaires commensaux de l'homme et animaux. Sont souvent considéré contaminant. Infections rare de matériel implanté et corps étrangers : traumatisme, KT. - 2 espèces pathogènes : B. Cereus, B. Anthracis. - Les spores résistent à une faible cuisson et la bactérie pousse. Croissance = production de toxine (5 entérotoxines et 1 toxine émétique). Toxine émétique : préformée dans l'aliment ingéré, symptomatologie apparaît rapidement en 1 à 6 heures nausée et vomissement"
+    },
+       {
+      "Noms":"Bacillus Cereus",
+      "Localisation":"Nature: sol et air, aliments (via spores), Viandes, Riz, Purées de pommes de terre déshydratées",
+     "Symptomes maladies":"Entérotoxines thermolabiles : douleurs abdominales, diarrhées profuses. Autres infections : oculaires post-traumatiques",
+        "Spécificités Diagnostic":"Bacille sporulé aérobie. Ubiquitaires commensaux de l'homme et animaux. Sont souvent considéré contaminant. Infections rare de matériel implanté et corps étrangers : traumatisme, KT. - 2 espèces pathogènes : B. Cereus, B. Anthracis. - Les spores résistent à une faible cuisson et la bactérie pousse. Croissance = production de toxine (5 entérotoxines et 1 toxine émétique). Toxine émétique : préformée dans l'aliment ingéré, symptomatologie apparaît rapidement en 1 à 6 heures nausée et vomissement",
+        "Traitement Prévention":"Résolution complète des symptômes en 24h. La réhydratation orale constitue le traitement de choix des intoxications alimentaire aiguës"
+       },
+     {
+         "Noms":"Helicobacter Pylori",
+         "Localisation":"Infecte environ 50% de la population mondiale",
+        "Symptomes maladies":"Gastrite aiguë et chronique. Ulcères peptiques. Adénocarcinomes gastriques. Lymphome des tissus lymphoïdes associés à la muqueuse. La présence d'H. pylori augmente le risque d'ulcère gastroduodénale et de cancer de l'estomac mais peut également associés à des avantages pour la santé (risque réduit de reflux œsophagien et ses conséquences et la protection contre l'asthme infantile)",
+        "Spécificités Diagnostic": "Peut devenir sphéroïdes ou former des corps cocoïdes si culture prolongée ou conditions de croissance défavorables → Défense. Transmission oro-fécale souvent familiale. Flagellés simples ou multiple → Mobile. Culture fastidieuse, bactérie très fragile. Microaérophile pour la survie dans le gel muqueux. Virulence : Dépend d'une protéine associée à la cytotoxine et d'une cytotoxine vacuolatine active. Survit en milieu acide. Peut établir un potentiel positif à l'intérieur de la membrane et modifier son microenvironnement par l'action de l'uréase (production ammonium). Un changement dans la polarité de la membrane fournit une barrière électrique qui empêche l'entrée de protons (H+). Libération de facteurs qui inhibent la production d'acide par les cellules pariétales. Microaérophile: peut survivre dans le gel muqueux. Forme spirale : Flagelle pour la motilité dans cette couche visqueuse de mucus",
+      "Traitement Prévention":"Combinaison d'antibiotiques (macrolides, beta-lactame) avec inhibiteurs de pompe à proton (oméprazole). Éradication avec guérison d'ulcère. Émergence de résistance durant le traitement."
+      },
+        {
+        "Noms": "Shigella",
+        "Localisation": "n/a",
+        "Symptomes maladies":"Diarrhée. Dysenterie",
+        "Spécificités Diagnostic":"Bacille non mobile. Réservoir exclusivement humain. Transmission fécale-oral. Ne fait pas partie du microbiote (toujours pathogène). - Endémique et épidémique en zone tropicale",
+       "Traitement Prévention":"Antibiothérapie raccourcit le cours de la maladie symptomatique et de l'excrétion fécale."
+     },
+    {
+        "Noms": "Campylobacter",
+         "Localisation": "Infection zoonotique, la volaille mal préparée",
+        "Symptomes maladies":"Première cause de diarrhée bactérienne en Belgique. Infection dépend de la dose. C. Jejuni/Coli : après 1-5 jours d'incubation. Diarrhée muco-purulente, parfois teintée de sang et fièvre. Complication : arthrite réactive, syndrome de Guillain-Barré",
+        "Spécificités Diagnostic": "Petits bacilles incurvées en forme de S. Propagation personne-personne est rare. Regroupe >30 espèces : C. Fetus: Intestinale chez le bovin et mouton (retrouvée sporadiquement dans la viande). Est associée à une septicémie, thrombophlébite et est transmise à plusieurs organes. C. Jejuni: Principale espèce à l'origine des gastroentérites. C. Coli: Deuxième espèce fréquente productrice de gastroentérite, pathogénicité mal connue, colonisation de la muqueuse intestinale sans pénétration, toxines connues. L'infection dépend de la dose Diagnostic: En cas de diarrhée : coproculture + hémoculture.",
+        "Traitement Prévention":"Le gastro-entérite est autolimitée et est gérée par remplacement de liquide et d'électrolyte. Les gastro-entérites graves et les septicémies sont traitées à l'érythromycine ou à l'azithromycine. Résistants aux céphalosporines et augmentation de la résistance aux fluoroquinolones."
+       },
+     {
+        "Noms":"Pasteurella",
+        "Localisation":"Chien, Chat",
+        "Symptomes maladies":"Apparition extrêmement rapide d'une inflammation majeure autour de la plaie d'inoculation. Un écoulement peut être présent, rarement purulent. Une lymphangite des adénopathies. Possibilité d'arthrite et infections de l'os dans les plaies profondes. Méningites, septicémie, infections respiratoires",
+        "Spécificités Diagnostic":"Coccobacille immobile, souvent encapsulé. Commensal des voies respiratoires des animaux (chiens et chats). Contamination par contact ou morsure : P. Mutocida (chats) P. Canis (rare par chien). Pathogénicité : toxine pouvoir dermonécrotique et ostéolytique. Diagnostic: prélèvement bactériologique au niveau de la plaie, LCR, culture (gélose au sang et chocolat pas sur MacConkey)",
+       "Traitement Prévention":"Préparation appropriée des aliments et la consommation de lait pasteurisé, contrôle de l'eau. Nettoyage de la plaie, pénicilline, ampicilline. Certaines souches produisent de la bêta-Lactamase → amoxicilline-acide clavulanique, céphalosporine 3G, fluoroquinolones, cotrimoxazole"
+     },
+      {
+        "Noms":"Capnocytphaga",
+        "Localisation": "n/a",
+        "Symptomes maladies":"Infections SNC, ORL de l'œil, amniotites (infections femme enceinte du fétus)",
+        "Spécificités Diagnostic": "Bacille fastidieux (besoin de de CO2) longs et fins. Font partie de la flore buccale normale de l'humain (C. gingivalis, C. Sputigena). Et des chiens et chats (C. Canimorsus et C. Cynodegmi). Infections de plaies: après morsure ou griffure, septicémie (patients sans rate). La majorité d'infections sont chez le patient immunodéprimée",
+       "Traitement Prévention":"Naturellement restantes aux aminosides. En fonction des différences espèces, la sensibilité des autres ATB peuvent changer"
+      },
+      {
+        "Noms":"Bartonella",
+         "Localisation": "B. Baciliformis : Le vecteur est un moustique",
+        "Symptomes maladies": "B. Baciliformis : fièvre d'Orolla ou maladie de Carrion. Forme aiguë = fièvre d'Oroya est une anémie hémolytique fébrile aiguë. Forme chronique = verrue",
+        "Spécificités Diagnostic":"Petites bactéries à croissance fastidieuse. Ne colorent pas au GRAM. Existent >15 espèces (toutes pathogènes pour l'homme)",
+       "Traitement Prévention":"B. Quintana : macrolides ou doxycycline"
+     },
+     {
+       "Noms":"Brucella",
+       "Localisation":"Animaux d'élevage et leur",
+        "Symptomes maladies":"B. Quintana: fièvre des tranchées et endocardites (Spécifique de l'homme). Pathologie fébrile aiguë, récurrente, parfois associée à une éruption cutanée, asthénie, vertiges, céphalées, injection conjonctivale et douleur intense au niveau du dos et des jambes, endocardite. B. Henselae: Présentation d'adénopathie locorégionale unilatérale + lésion primaire d'inoculation. Dans 10% des cas: forme ophtalmique. Signes généraux discrets : fébricules, asthénie, céphalée, douleurs abdominales. Chez les patients immunodéprimés : lésions populo nodulaire composées d'une prolifération non maligne de petits Vx et cellules d'aspect épithélioïde sous l'influence des bactéries. Brucella: Fièvre de Malte. Formation de granulomes dans périviennenne avec lésions cutanées angiomateuses.",
+       "Spécificités Diagnostic":"B. Quintana: diagnostic par hémoculture. B. Henselae : Contamination humaine se fait par morsure ou griffure de chat, plus rarement par léchage d'une plaie ou par piqure de puce de chat. La bactérie passe dans la salive à l'occasion d'une parodontite. Plus fréquent chez l'enfants que chez l'adulte. A partir de la lésion d'inoculation : multiplication dans un ganglion relais (adénopathie inflammatoire avec granulome épithélioïde sans nécrose caséeuse). Papule et ulcère 3 à 10 jours. Incubation 2-3 semaines. Endocardite à hémoculture négatives chez la valvulopathie. Diagnostic: sérologie, PCR, culture sur milieux spéciaux dans les laboratoires spécialisés. Coccobacille ou bacille, non encapsulé, aérobie strict",
+        "Traitement Prévention":"Doxycycline + rifampicine (6 semaines)"
+      },
+      {
+         "Noms":"Rickettsia",
+         "Localisation": "n/a",
+         "Symptomes maladies":"Tous, sauf Coxiella Burnetii (agent de la fièvre Q) sont transmis aux humains par des arthropodes (ex: tiques). Leur propagation est favorisée par des conditions d'hygiène très faible. Tous, sauf le typhus épidémique, ont comme réservoir des vertébrés. Un syndrome pseudogrippal d'installation brutale (jusqu'à plusieurs semaines). Vers le 5e jour d'évolution : L'éruption cutanée maculeuse, maculopapuleuse, ou vésiculeuse, qui débute souvent, localisée au tronc, et pouvant se généraliser. Une escarre au site d'inoculation est retrouvée fréquemment. Possible apparition de formes sévères survenant sur des terrains particuliers et pouvant aboutir à un syndrome de défaillance multiviscérale. Mortalité variable selon les régions et facteurs de risque du patient.",
+        "Spécificités Diagnostic":"Coloration par le Giemsa, Gimenez ou Machiavello. Pas de transmission d'homme à homme. Se multiplient au niveau de l'endothélium vasculaire provoquant des vasculites au niveau cutané, du SNC ou du foie. Infections multi-systémiques. Le passage à la chronicité est fréquent. Incubation moyenne de 6 à 10 jours. - La mortalité variable selon les régions et facteurs de risque du patient. Répartition : Rickettsies appartenant au groupe « boutonneux » : Principale espèce Rickettsia Conorii agent de la fièvre boutonneuse méditerranéenne (par les tiques du chien). R. Rickettsii, responsable de la fièvre pourprée des montagnes Rocheuses. Rickettsies appartenant au groupe « typhus » épidémique : Rickettsia Prowazekii, (typhus exanthématique) transmit par les poux de corps - R. Typhi, agent du typhus murin transmit ou par la puce du rat. Diagnostic indirect : Sérologie, immunofluorescence très sensible et spécifique",
+       "Traitement Prévention":"spontanément favorables. Doxycycline"
+    },
+    {
+        "Noms": "Coxiella Burnetii",
+        "Localisation": "Réservoir: placentas des animaux infectés (ruminants++), ovin, bovins, caprins.",
+       "Symptomes maladies":"Responsable de la fièvre Q (query fever = fièvre d'origine inconnue). Environ 60% des patients resteront asymptomatiques Fièvre Q aiguë : Syndrome grippal, pneumonie, hépatite, endocardite. Femme enceinte : Risque d'infection du placenta (avortement, mort intra-utérin). Environ 2% pourront évoluer vers une infection persistante focalisée (endocardite, infection vasculaire, infection ostéoarticulaire, lymphadénite).",
+       "Spécificités Diagnostic": "Petit bacille ne pouvant pas être mis en évidence par la coloration de Gram, qui vit et se multiplie dans le phagolysosome des macrophages (intracellulaire obligatoire) Forme pseudosporulée = grande résistance en milieu extérieur et très infectieux. Produits de parturition et les matières fécales, l'urine, le lait, en se desséchant, laissent des bactéries virulentes dans les fumiers, les litières, les poussières : répandues par le vent à grande distance Contamination : Inhalation d'aérosols à partir d'éléments contaminés par la bactérie: paille, fumier...). La voie digestive (consommation de lait cru) et les tiques peuvent éventuellement transmettre la bactérie. Il s'agit d'une maladie cosmopolite, plus fréquente en zone rurale. Diagnostic: Sérologie: immunofluorescence indirecte (IFI) qui est la technique de référence, la réaction de fixation du complément à coupler avec la PCR (sérum, biopsie de valve, ou sang) et la technique ELISA PCR: pas de méthodes commerciales",
+        "Traitement Prévention":"Doxycycline de 2-3 semaines"
+      },
+      {
+         "Noms":"Francisella Tularensis",
+          "Localisation": "Réservoir: animales sauvages ou domestiques surtout les lièvres, lapins, rongeurs",
+          "Symptomes maladies":"Responsables de la tularémie. Maladie rare, mais en augmentation",
+          "Spécificités Diagnostic": "Coccobacilles aérobie stricts. Pathogènes hautement contagieux (10 bactéries peuvent infecter)",
+          "Traitement Prévention":"Doxycycline + aminoside, ou ciprofloxacine + aminoside"
+       },
+      {
+        "Noms": "Actynomycètes",
+        "Localisation": "Saprophyte de la bouche, oropharynx, bronches, tube digestif, muqueuses génitales",
+        "Symptomes maladies": "Après une incubation de 4 jours en moyenne : fièvre élevée + adénopathies inflammatoires satellites d'une lésion d'inoculation. Formes ulcéro-ganglionnaires (60 à 80% des cas) des membres (supérieur le plus souvent) (lésions vésiculo-pustuleuses et grosse adénopathie axillaire). Formes oculaires, oropharyngées, pulmonaires, typhoïdiques, avec rarement une dissémination hématogène. Les formes bactériémiques (pulmonaires sont plus rares et font penser à un acte de bioterrorisme) Agent producteur de l'actinomycose, infection rare chronique Conglomérats de microcolonies dans le pus sous forme de granulés de soufre. = Abcès avec évolution vers la fistulisation Les mononinfections sont rares, le cas le plus fréquent étant les polyinfections endogènes.",
+       "Spécificités Diagnostic": "Bacille ramifiée anaérobie strict non acido-alcool résistants (Non BAAR). - >30 espèces dont A. Israelii. Infection habituellement par déplacement de souches endogènes après rupture de la muqueuse. Pathogène opportuniste chez le sujet sain et immunodéprimé de tout âge. Diagnostic: Prévenir le laboratoire de la suspicion diagnostique. Culture difficile : lente 2-3 semaines en anaérobiose Histologie",
+        "Traitement Prévention": "Interventions chirurgicales et ATB avec aminopénicillines"
+      },
+     {
+        "Noms":"Norcardia",
+        "Localisation":"Saprophyte du sol et végétaux en décomposition",
+         "Symptomes maladies":"Maladie rare mais en augmentation. Pneumonie chronique avec des abcès multiples, fièvres, sueurs nocturnes, toux, expectoration purulente. Infection de plaie traumatique : mycétome. Infection disséminée: os, cerveau",
+       "Spécificités Diagnostic":"Bactéries aérobies, ramifiées, non sporulées. BAAR avec Ziehl-Neelsen modifié (coloration moins forte). Beaucoup d'espèces dont N. Asteroides Complex, N. Brasiliensis les plus fréquent en clinique. Variation géographique des espèces. Germes opportunistes surtout chez les immunodéprimés. Aussi chez les diabétiques, alcooliques. Infection par inhalation ou voie cutanée Par de transmission humain-humain. Diagnostic: Histologie de biopsies tissulaires",
+         "Traitement Prévention":"Cotrimoxazole, Imipenème, autres combinaisons. Traitement long (6 à 12 mois voire plus si mycétome ou atteinte du SNC)"
+      },
+    {
+      "Noms": "Listeria Monocytogenes",
+      "Localisation":"Charcuteries cuites, Graines germées, Produits au lait frais, Fromage au lait cru, Pâtés, rillettes, Fruits et légumes non lavés",
+       "Symptomes maladies":"Listériose : Pathogène opportuniste. Groupe à risque : Femmes enceintes, nouveau-nés, Personnes âgées, sujets immunodéprimés. Listériose de la femme enceinte : Syndrome pseudogrippal, 3º trimestre de grossesse MIU, prématurité Listériose néonatale précoce : 50% de mortalité. Méningite néonatale tardive. Listériose invasive de l'adulte : Méningite classique intestin → sang → cerveau",
+      "Spécificités Diagnostic": "- Cultures d'expectorations ou prélèvements invasifs. GRAM: longs bacilles ramifiés, le Gram est faible, aspect. Culture lente (3 jours → 4 semaines). Indentification nécessite souvent techniques moléculaires. 10 espèces dont 2 pathogènes L. monocytogenes (humain) et L. Ivanovii (animaux). Anaérobie facultatif. Bactérie ubiquiste très largement répandue dans environnement. Catalase +. Oxydase -. Résistant à des températures basses, survie importante. Psychotrope. Absence de capsule. Bactérie à développement intracellulaire → réponses immunitaires à médiation cellulaire (portage digestif humain 1-5%). Incubation qql jours – qql mois. - Transmission par ingestion d'aliments contaminés ou transmission vertical in utero. Cas sporadique, rarement cas groupés/épidémies. Maladie à déclaration OBLIGATOIRE",
+      "Traitement Prévention": "Ampicilline. Prévention : non-consommation d'aliments à risque chez les personnes immunodéprimés car absence de vaccins"
+    },
+    {
+       "Noms":"Germes HAСЕК",
+       "Localisation":"Microbiote oral",
+       "Symptomes maladies":"A: Actinomycose, Parodontite. C: Gingivites. E: Morsure, Abcès cérébraux et abdominaux, Ostéomyélites K: Infection articulaire. Toutes les bactéries vont donner une endocardite infectieuse :",
+       "Spécificités Diagnostic":"Η Haemophilus Aphrophilus/Paraphrophilus. A Aggregatibacter Actinomycetemcomitans. C Cardiobacterium Hominis/Capnocytophaga. E Eikenella Corrodens. K Kingella Kingae. Incubation de 5 jours",
+      "Traitement Prévention":"Beta-lactame (Pénicilline ou céphalosporine 3G). Glycopeptides. Retrait et analyse du matériel étranger"
+     },
+      {
+       "Noms": "Clostridium Tetani",
+      "Localisation":"Dans la terre et déjections animales, Dans les pays en voie de développement avec faible accès au vaccin",
+        "Symptomes maladies": "Tétanos: Paralysie spastique localisé, généralisé, néonatale (cordon ombilical coupé de manière septique si pas de traitement = Mort)",
+      "Spécificités Diagnostic":"Bacille anaérobie stricte, mobile. Culture difficile. Incubation de 3j-3 semaines puis maladie gravissime. L'exposition aux spores est commune, mais la maladie est rare. Pénétration via plaie : spores passent à forme végétative (toxines). Hémolysine : anti phagocytaire. Tétanospasmine: Contraction musculaire La toxine pénètre à l'extrémité de neurone périphérique, transport par l'axone jusqu'au SNC → Inhibe la sécrétion de médiateurs (GABA, glycine) au niveau interneurone inhibiteur (plus de signal de contraction)",
+         "Traitement Prévention":"Vaccin: à répéter. Immunoglobuline antitoxine, relaxant musculaires, ventilation, ATB (pénicilline, métronidazole), Nettoyage de plaie"
+      },
+    
+        {
+            "Noms":"Clostridium Botulinum",
+            "Localisation":"Spore se trouvent dans le sol, proc, poissons",
+            "Symptomes maladies": "Le botulisme regroupe plusieurs entités : Botulisme infantile : Ingestion de spores existant dans du miel, multiplication, production de toxines, paralysie flasque Intestinale : le plus fréquent, bouche sèche, constipation, douleur",
+            "Spécificités Diagnostic":"Bacille anaérobie - 7 types de toxines (thermostables) → maladie chez l'humain. Produit une toxine AB thermolabile Blocage de la neurotransmission à niveau des neurones moteur. Blocage de la production d'acétylcholine au niveau de la jonction neuromusculaire = paralysie flasque Incubation de 18-36h",
+           "Traitement Prévention":"Pénicilline, antitoxine, support respiratoire. Prévention: Pas de miel pour les enfants, chauffer la nourriture à 100°C 10 min pour détruire la toxine"
+         },
+        {
+          "Noms":"Clostridium difficile",
+          "Localisation":"Répandue dans le sol, eaux",
+           "Symptomes maladies":"Par blessure : comme l'intestinale mais plus lent. Inhalation de spores : apparition rapide de symptômes, paralysie, trouble oculomoteurs, dysphagie, atteintes cardiaques, paralysie respiratoire. ABSENCE DE FIÈVRE. Pathogène conditionnel qui cause colite pseudomembraneuse et diarrhée post-ATB. 1ère cause de diarrhée nosocomiale. Infection hospitalière manuportée ou à partir de l'environnement",
+            "Spécificités Diagnostic":"Anaérobie sporulé. Commensal digestif humain et animal. Sérotypes 027 est très épidémique virulent. Spores: résistants à la dessiccation et désinfection - risque d'épidémies dans l'hôpital par contamination de chambre de malade. 2 toxines : Entérotoxine (toxine A) : sécrétion intestinale - diarrhée. - Cytotoxine (toxine B): nécrose épithéliale - colite pseudomembraneuse. Diagnostic: Coproculture + détection de toxines Test immunochromatographie, ELISA et PCR. Détection de GDH (présence de C. difficile) et Toxine AB",
+            "Traitement Prévention":"Arrêter ATB en cause. Métronidazole ou vancomycine en cas de maladie grave. La rechute est fréquente, un 2e traitement avec le même ATB est généralement réussi. Transplantation fécale. La salle d'hôpital doit être soigneusement nettoyée après la sortie du patient infecté"
+        },
+     
+        {
+            "Noms": "Mycobacterium Leprae",
+            "Localisation": "Dans les sécrétions nasales de patients avec lèpre lépromateuse",
+             "Symptomes maladies":"Lèpre: Maladie qui touche la peau et les nerfs périphériques : détruit les gaines de myéline protectrices qui entourent les fibres nerveuses et se cache ensuite dans les cellules de Schwann",
+            "Spécificités Diagnostic":"Bacille de Hansen BAAR Développement très lent (incubation de 5-20 ans). Transmission directe rare, facteurs génétiques probables Contact personne à personne, inhalation d'aérosols infectieux, contact de la peau avec des sécrétions respiratoires et exsudats de plaies Incubation moyenne de 5 ans Diagnostic: Lésion avec perte de sensibilité, ne peut pas être cultivé sans cultures cellulaires, Ziehl-Neelsen, PCR, Anatomo-pathologie, analyse histopathologique.",
+            "Traitement Prévention":"Polychiothérapie : Rifampicine + Dapsone + Clofazimine (de 6-12 mois)"
+         },
+           {
+              "Noms": "Mycobacterium Marinum",
+             "Localisation": "Retrouvé dans l'eau douce ou salée, piscines, aquariums",
+            "Symptomes maladies":"Pathogène pour animaux à sang froid (poissons). Si blessure contaminée : granulome ulcéreux, nodule le long dans Vx lymphatiques",
+            "Spécificités Diagnostic":"BAAR Croissance rapide <7J",
+            "Traitement Prévention":"n/a"
+          },
+        {
+            "Noms":"Mycobacterium Tuberculosis",
+            "Localisation": "n/a",
+             "Symptomes maladies":"Tuberculose : Maladie contagieuse transmise par voie aérienne Maladie connue depuis des milliers d'années Voir le cours de tuberculose pour plus de précision pcq je ne peux pas le résumer dans cette case (j'ai essayé, je rajoute 4 pages)",
+             "Spécificités Diagnostic":"Transmission par voie aérienne humain-humain par gouttelettes de salive. Résistance contre la dessification et désinfectants Facteurs de risques : Inoculum pulmonaire du patient, proximité et durée de contact, ventilation, immunité Pathologie pulmonaire la plupart du temps ou dans n'importe quel organe (pas contagieux alors sauf si atteinte poumons) Diagnostic: Déclaration OBLIGATOIRE Test cutané: Injection de PPD dans le derme de l'avant-bras.",
+            "Traitement Prévention":"Polychimiothérapie : Jamais monothérapie Utilisation de 3-4 antituberculeux 6 à 12 mois : supervision prise et suivi médical. Prophylaxie : Isolement respiratoire, chimioprophylaxie (prise d'un ATB antituberculeux pendant >6 mois), BCG"
+         },
+      
+            {
+             "Noms": "E. Coli",
+              "Localisation":"Contamination féco-orale, nécessite une dose infectante élevée",
+             "Symptomes maladies":"Infections intestinales. Pathogènes extra-intestinaux (30% des bactériémies, 80-85% des",
+            "Spécificités Diagnostic":"n/a",
+            "Traitement Prévention":"- La majorité a ne résistance à l'ampicilline"
+           },
+          {
+              "Noms":"ETEC",
+              "Localisation": "n/a",
+              "Symptomes maladies":"infections urinaires), Infections voies biliaires, Péritonites, Pneumonies, Méningites, Ostémiélytes. Diarrhée cholériforme, aqueuse (eau de riz) = comme choléra jusqu'à 20L/jour, vomissements,",
+              "Spécificités Diagnostic":"Coexistence de nombreux sérotypes chez un même individu en symbiose (souches commensales non pathogènes). Incubation 2-3 jours. Inhibent la réabsorption de Na et Cl sécrétion de Cl et HCO3 = perte d'eau. Facteurs spécifiques de pathogénicité : LPS (paroi) : choc endotoxinique. Adhésine: infections urinaires, digestifs, méningites. Ag capsulaire (K1) : anti-phagocytose. Hémolysine (substance qui provoque une destruction des Hb et facilite l'invasion tissulaire). Sidérophores (chélateurs de fer). Production d'entérotoxines thermolabiles : similaire au choléra. Production d'entérotoxines thermorésistantes. Diagnostic: clinique et PCR. Pathovars d'E. Coli : Bactériémie : LPS, sidérophores. Méningites, Pneumonies néo-natales : capsule K1 Diarrhées infectieuses : ETEC (Entérotoxigène) ← Entérotoxine (Plasmide) EIEC (Entéro-invasifs) ← Invasine (Plasmide). EHEC (Entérohémorragique) ← Cytotoxine (Phage). EPEC/EAEC (Entéropathogène) ← Adhésines, modulines (plasmide). Contamination féco-orale, nécessite une dose infectante élevée Incubation de 2-3 jours",
+             "Traitement Prévention":"Quasi-résistance au cotrimoxazole, fluoroquinolones. Émergence de souches BLSE et productrices de carbapénèmases la communauté. Régression en 2-4j, réhydratation"
+            },
+           {
+              "Noms":"ECEI",
+              "Localisation": "n/a",
+              "Symptomes maladies":"douleurs abdominales, pas ou peu de fièvre chez le voyageurs et enfants en pays en développement. GB dans la lumière intestinale, diarrhée purulente",
+             "Spécificités Diagnostic":"Adhésion à l'intestin par des pili et production de toxines (plasmide). Entérotoxines thermolabiles LT: similaire au choléra Entérotoxine thermorésistante. Inhibent la réabsorption de Na et Cl + sécrétion de Cl et HCO3- = Perte d'eau Diagnostic: Clinique et PCR Même maladie que la Shigella. Facteur de virulence encodé par un plasmide chez shigella et coli. Capacité d'invasion des cellules. Réaction inflammatoire importante avec fièvre",
+              "Traitement Prévention":"Prévention : \"cuire, faire bouillir, peler ou oublier\", Boisson bouteille fermée, lavage des mains"
+            },
+          {
+              "Noms":"ECEH",
+              "Localisation": "Contamination alimentaire (viande mal cuite, fruits, légumes, lait cru, graines germées)",
+             "Symptomes maladies":"Diarrhée hémorragique sanglante qui peut se compliquer avec syndrome hémolytique et urémique (chez les patients âgés, immunodéprimées) → Diminution de plaquettes, lyse de FR et cause un dommage de rein",
+              "Spécificités Diagnostic":"Producteurs de shigatoxine (STEC) appelée aussi vérotoxine (VTEC) → Inhibe la synthèse de prot. = Mort cellulaire. Dise infectante faible avec incubation de 3-4 jours Transmission personne-personne",
+              "Traitement Prévention":"Résolution dans les 4-10 jours. Antibiothérapie non recommandée"
+            },
+        {
+          "Noms":"Klebsiella spp",
+          "Localisation": "Dans la nature",
+           "Symptomes maladies":"K. Rhinoscleromatis et Ozaenae donnent des pathologies ORL humaine chronique (Rhinosccleroma et Rhinitis atrophique). K. Granulomatis est un pathogène humain IC stricte → Donovanose",
+            "Spécificités Diagnostic":"Bacille capsulé, non mobile. K. Pneumoniae : espèce la plus importante. Le sérotype K1 est très pathogène (abcès hépatiques). K1 produit pneumonie lobaire avec expectoration sanglante et tendance à produire des abcès et cavités. K. Oxytoca est une espèce importante",
+            "Traitement Prévention":"Résistance à l'ampicilline. Acquisition rapide de résistances plasmidiques: BLSE et carbapénèmases Certaines souches sont très épidémiques et peuvent être résistantes à tous les ATB"
+           },
+           {
+           "Noms": "Enterobacter",
+            "Localisation": "Produit laitiers, viande, environnements hospitaliers, peau, tube digestif",
+            "Symptomes maladies":"K. Pneumoniae : Cause fréquente d'UTI, d'infections de plaies et septicémies.",
+             "Spécificités Diagnostic": "Bacille mobile ubiquitaire - E. Aerogenes, E Cloacae, E Sakazakii les plus isolés en milieu hospitalier. Germe opportunistes, infections hospitalières (instrumentation et dispositifs médicaux contaminés",
+            "Traitement Prévention":"disponibles → Mortalité très élevées. Résistance BLSE et aux carbapénèmes. Résistance ampicilline, amoxicilline-clavulanate et céphalosporines 1er-G (Production de céphalosporine chromosomique inductible en présence de d'ATB)"
+            },
+            {
+           "Noms":"Cronobacter Sakazakii",
+             "Localisation":"n/a",
+              "Symptomes maladies":"n/a",
+               "Spécificités Diagnostic":"Souches pigmentées. Utilise l'acide sialique présent dans le lait maternel et les formations laitières. Protéine membranaire A : adhésion aux cellules vasculaires cérébrales Nouveau nés: méningites se compliquant avec abcès de cerveau, entérocolites. Lait maternisé en poudre : peut survivre pendant 2 ans Mortalité de 40-80%",
+           "Traitement Prévention":"n/a"
+            },
+           {
+             "Noms":"Citrobacter Freundii/ Koseri",
+             "Localisation":"n/a",
+              "Symptomes maladies":" Infections nosocomiales plus souvent les hommes et la voie urinaire est le site le plus commun d'infection. C. Koseri est associés à des méningites et abcès de cerveau chez le nouveau-né",
+              "Spécificités Diagnostic":"C. Freundii et C. Koseri sont deux espèces fréquemment retrouvées en clinique. Pathogène opportuniste. Nouveau-nés (C. Koseri). Patients âgées et immunodéprimés",
+            "Traitement Prévention":"C. Freundii a une résistance naturelle à l'ampicilline, amoxicilline-clavulanate et céphalosporines 1 et 2e génération"
+            },
+        {
+          "Noms":"Serratia",
+          "Localisation":"Milieu hospitalier",
+          "Symptomes maladies":"Cause d'ITU, infections de plaies, pneumonies",
+           "Spécificités Diagnostic": "Opportuniste associé aux infections hospitalières transmises par le personnel. S. Marcescens est l'espèce prédominante (cause rarement des infections communautaires sauf les infections oculaires chez les porteurs de lentilles de contact). Certaines espèces d'origine de l'environnement produisent un pigment rouge",
+           "Traitement Prévention":"Résistance naturelle à l'ampicilline, amoxicilline clavulanate et céphalosporines 1 et 2e génération"
+         },
+       {
+           "Noms":"Proteus Providencia Morganella",
+           "Localisation":"n/a",
+           "Symptomes maladies": "Infection nosocomiales, ITU patient âgés par cathétérisme",
+            "Spécificités Diagnostic":"Font partie de la flore intestinale. Proteus: bactérie très mobile et production d'un \"nappage\" caractéristique sur gélose au sang qui masquent les autres bactéries dans les cultures mixtes Proteus, Providencia, Morganella: (uréase très active : formation de calculs urinaires)",
+           "Traitement Prévention":"Proteus vulgaris (infections de plaies) est résistance à l'ampicilline et aux céphalosporines de 1 et 2e génération (idem pour Morganella et Providencia) - P. mirabilis : sensible aux beta-lactames. Tous le groupe Proteaceae est naturellement résistant à la colistine et peut avoir des plasmides de résistance et devenir multi résistants"
+          },
+          {
+             "Noms":"Salmonella",
+             "Localisation":"Habite dans l'intestin des animaux et infecte l'homme par la contamination de la nourriture et de l'eau avec les selles des animaux",
+              "Symptomes maladies":"Salmonellose non typhi : Gastroentérite : diarrhée fébrile, vomissements, douleur abdominale. Complications : infections secondaires à la bactériémie : os,",
+              "Spécificités Diagnostic":"Bacille souvent mobile ne fermentent pas la lactose et produit H2S. Pathogènes intestinaux invasif : bactériémies >25000 sérotypes O (LPS avec antigène somatique O et lipide A (endotoxine)) Toxi-infection alimentaire collective avec recrudescence estivale",
+            "Traitement Prévention":"Non typhi : Réhydratation avec électrolytes. ATB uniquement si facteurs de risque de bactériémie :"
+         },
+        {
+            "Noms":"Yersinia",
+            "Localisation":"Réservoir varié environnement, aliments, d'origine végétale et animale, animaux",
+             "Symptomes maladies":"arthrite, infection de prothèse Diagnostic: Coproculture. Salmonellose typhi : Uniquement chez l'humain. Transmission fécale orale. Dose infectante >10^3. Toujours pathogène Incubation de 1-6 semaines Fièvre typhoïde/ paratyphoïde (plus rarement produite par S. paratyphi). Fièvre élevée et persistante, diarrhée, confusion mentale, éruption maculeuse discrète, splénomégalie. Bactériémie avec sepsis sévère. Diagnostic: hémoculture, coproculture. Y. Pestis: Peste. Y. Pseudotuberculosis: Cause d'infection des ganglions lymphatiques mésentériques (syndrome d'adénite mésentérique). Simule une appendicite aiguë. Y. Enterocolitica : Cause d'entérocolites. Syndrome pseudo-appendiculaire. Adénite mésentériques. Iléites terminales",
+             "Spécificités Diagnostic":"Dose infectante élevée > 10^5. Classification complexe souvent divisée en 3 groupes : S. Enteritidis, S. Cholera-Suis et S. Typhi (pas une zoonose mais transmission humaine). Virulence multifactorielle : Antigène Vi (polysaccaride capsulaire) : protège contre les anticorps qui attaquent le O. Système de sécrétion de type III : injecte invasine et moduline. Tolérance des acides dans les vésicules phagocytaires (peut survivre dans les macrophage et se propager de l'intestin à d'autres site du corps) Tropisme variable espèce-hôte : habite dans l'intestin des animaux et infecte l'homme par la contamination de la nourriture et l'eau avec les selles des animaux. Séparé en 3 groupes : S Enteritidis, S. cholera-suis, S. typhi (pas une zoonose mais transmission humaine Bacille qui contient 18 espèces dont 3 importantes Y. Pestis: réservoir rongeur et rats. Vecteurs par les puces Y. Pseudotuberculosis : réservoir animal, infection par nourriture contaminée. Y. Enterocolitica : certaines espèces peuvent croître au froid. Seulement certains biotypes/sérogroupes sont pathogènes pour l'homme. Biotype : 1B 2 et 3 sont pathogènes Les antigènes 03, 09, 08 sont caractéristiques des souches pathogènes. Facteurs de virulence de Y. Enterocolitica: Chromosomique : entérotoxine thermostable,",
+           "Traitement Prévention":"Fluoroquinolones, Céphalosporine 3G, azithromycine. Portage intestinal, traitement ATB longue avec fluoroquinolones. Typhi : Fluoroquinolones/ceftriaxone. Prévention : Hygiène, vaccination possible, traitement des porteurs. Y. Enterocolitica: Diarrhée disparait généralement après traitement symptomatique En cas de complications : fluoroquinolones"
+         },
+          {
+           "Noms": "Staphylococcus Aureus",
+            "Localisation":"Sinus, Oreille externe",
+            "Symptomes maladies": "Otite externe, épiglottite aiguë. Syndrome de Ritter. Syndrome de peau échaudé. Toxine Panton Valentine. Toxi-infections alimentaires (voir cours) Infections nosocomiales : Pneumonies. Infections cutanées : Impétigo, Folliculite, Furoncle. Septicémies et abcès métastatiques : Ostéomyélite, Arthrite, Endocardite",
+           "Spécificités Diagnostic":"Coque en amas catalase +. Aérobie ou Anaérobie facultatifs. Germes ubiquitaires. Flore commensale de la peau et des muqueuses de l'homme et de l'animal. Environ 5 espèces dont S. Aureus et S. coagulases négatives (S. Epidermitidis, S. Saprophyticus, S. Lugdunensis, S. Haemolyticus). Coque, le plus pathogène. Produit prot. A qui se fixe sur Fc de IgG → empêche phagocytose (fixation inversée sur l'anticorps). Protéines ancrées dans la paroi liant la fibronectine et le fibrinogène qui lui permet de s'attacher. Formation de biofilms. Présence d'une capsule. Croissance sur gélose par fermentation du mannitol. Coagulase +. Hémolyse de >90%. Toxines: Syndrome du choc toxique, intoxications alimentaires (entérotoxines), Staphylococcal scladed skins syndrome (SSSS)",
+            "Traitement Prévention":"n/a"
+           },
+        {
+          "Noms":"Staphylococcus Saprophyticus",
+           "Localisation":"Rectum, périnée des jeunes femmes",
+           "Symptomes maladies":"Méningite. Prédilection pour causer des infections urinaires communautaires chez les jeunes femmes sexuellement actives",
+          "Spécificités Diagnostic":"Coque en amas. Catalase + Coagulase +. Production d'entérotoxines A, B, C, D, E. Toxines thermostables. Staphylococcus Coagulase négatif (SNC). Catalase + Présence d'une adhésine (lactosamine) avec tropisme pour les cellules uroépithéliales. Infections sont plus fréquentes dans les mois chauds",
+         "Traitement Prévention": "A différences des autres SCN (Staphylococcus coagulase négative), très sensible aux beta lactames (méticilline et pénicilline). Naturellement résistant à la fosfomycine"
+          },
+          {
+           "Noms":"Staphylococcus Epidermis",
+            "Localisation":"Infections liées aux soins en présence de matériel étranger",
+            "Symptomes maladies":"Infections liées aux soins en présence de matériel étranger : bactériémies et endocardites",
+             "Spécificités Diagnostic":"Opportuniste. Coagulase négative",
+          "Traitement Prévention":"n/a"
+          },
+         {
+            "Noms":"Staphylococcus coagulase negative - S. Epidermis - S. Haemolyticus - S. Saprophyticus - S. Lugdunensis",
+             "Localisation":"Germes ubiquitaires et font parties de la flore commensale de la peau et des muqueuses de l'homme et de l'animal",
+            "Symptomes maladies":"S Epidermis: Bactériémies et endocardites, infection sur matériel. S. Saprophyticus : Infection du tractus urinaire chez la femme. S. Lugdunensis : Bactériémies et Endocardites, infections sur matériel, infections urinaires, arthrites. S. Haemolyticus : Bactériémies et endocardites, Infections sur matériel Méningite nosocomiale",
+             "Spécificités Diagnostic":"- Coques en grappe. Aérobie et anaérobie facultatifs. Catalase positive et coagulase négative. Pathogène opportuniste. Production de slime/biofilm : Capsule constituée de monosaccharides, protéines et peptides sécrétées par la bactérie. Se lie à du matériel étranger-inerte → Empêche phagocytose et rend bactérie inaccessible à la plupart des ATB. Diagnostic : Microscopique : coques à GRAM- en grappes. Culture : croissance sur des milieux classiques en aérobie et anaérobie Identification par spectrométrie de masse",
+            "Traitement Prévention":"ATB = beta-lactames ou glycopeptides Retrait (et analyse) du matériel étranger si possible"
+           },
+          {
+            "Noms":"Streptococcus",
+            "Localisation":"n/a",
+             "Symptomes maladies":"n/a",
+             "Spécificités Diagnostic": "Production d'endoprotéases contre les IgA1 (IgA1 protéase). Coque en chainettes, catalase négative. Aérobies/Anaérobies facultatifs. Constituant majeure de différentes flores humaines (buccale, digestive, uro-génitale). Croissance sur gélose au sang favorisée par apport de CO2. 3 types d'hémolyse : alpha, beta, gamma (absence). Groupes sérologiques de Lancefield (A à H et de K à V) en fonction de l'équipement antigénique de la paroi Sub-classification selon les caractéristiques biochimiques Possède à sa surface une peptidase qui clive C5A du complément",
+             "Traitement Prévention":"n/a"
+          },
+            {
+            "Noms":"S. Groupe A ou Pyogenes",
+              "Localisation":"Muqueuse respiratoire, Oreille externe",
+              "Symptomes maladies":"Otite externe, Angine érythématopultacée",
+              "Spécificités Diagnostic": "n/a",
+            "Traitement Prévention":"Sensible à la pénicilline"
+            },
+            {
+           "Noms":"S. Groupe G",
+             "Localisation":"n/a",
+             "Symptomes maladies":"n/a",
+             "Spécificités Diagnostic":"Le diagnostic est essentiellement porté sur la clinique. Diagnostic bactériologique (30-60% des cas): Hémoculture anaérobie ou aérobie àpd prélèvement locaux → Coloration GRAM. Protéine T (fonction inconnue). Protéine F adhésine (union à fibronectine), invasine. Lipoteichoïque acide (LTA). Facteurs de virulence: Toxines Toxine érythrogènes : A, B et C (ou exotoxines pyrogènes streptococciques SpeA, SpeB ou SpeC) L'éruption de la scarlatine. Souches lysogénisées par bacteriophage. Peuvent être associé à un choc toxique. Syndrome choc toxique streptotoxique : 10-20% des cas de septicémies, liées aux dermo-hypodermites nécrosantes. 60% de mortalité. Surinfection de lésions de varicelle. Spe A, C, F (superantigènes) Possède à sa surface une peptidase qui clive C5A du complément",
+          "Traitement Prévention":"n/a"
+         },
+        {
+           "Noms":"S. Pneumoniae",
+            "Localisation":"Oreille moyenne, Sinus, SNC",
+            "Symptomes maladies":"PNEUMONIE, sinusite, otite, méningite nosocomiale par voie hématogène et contamination de proximité, bactériémie",
+             "Spécificités Diagnostic":"Diplocoque encapsulé, alpha hémolytique. Capsule empêche la phagocytose déterminant >90 sérotypes Commensal des voies respiratoires supérieures Culture uniquement sur milieux riches et géloses au sang. Facteurs de virulence : Défense par des protéases contre les IgA. Transformation des plasminogènes en plasmine qui a un effet de protéase",
+            "Traitement Prévention":"Résistance variable à la pénicilline (modification de la PLP). Céphalosporine 3G si résistance à la pénicilline. Streptocoques alpha hémolytiques : Sensible à l'optochine. Prévention : Vaccin constitué à partir de"
+         },
+      {
+           "Noms":"Streptococcus Salivarus",
+            "Localisation":"Langue et muqueuse buccale",
+           "Symptomes maladies":"n/a",
+            "Spécificités Diagnostic":"Alpha hémolytique. Fait partie de la flore commensale de la bouche Synthétise du glucane à partir du saccharose présent en bouche qui forme une couche qui emprisonne les bactéries à la surface de la dent. La métabolisation du glucane par les bactéries produit de l'acide lactique qui décalcifie la dent à l'aide d'autres enzymes protéolytique, l'émail dentaire va être érosioné -> cavité",
+          "Traitement Prévention":"n/a"
+          },
+      {
+          "Noms":"S. sanguis S. Mitis S. mutans",
+           "Localisation":"Surface de la dent",
+            "Symptomes maladies":"Carie dentaire. Bactériémie et endocardite",
+           "Spécificités Diagnostic":"Alpha hémolytique. Fait partie de la flore commensale de la bouche. Synthétise du glucane à partir du saccharose présent en bouche qui forme une couche qui emprisonne les bactéries à la surface de la dent. La métabolisation du glucane par les bactéries produit de l'acide lactique qui décalcifie la dent à l'aide d'autres enzymes protéolytique, l'émail dentaire va être érosioné -> cavité",
+          "Traitement Prévention":"n/a"
+          },
+            {
+           "Noms":"Streptococcus Agalactiae",
+             "Localisation":"SNC",
+             "Symptomes maladies":"Sepsis néonatal précoce : Symptôme dans les premiers jours de la vie (dans les 2j de vie à 7 jours). Transmission vertical depuis la mère. État septique + détresse respiratoire. Infection type bactériémie. Évolution fulminante 3-6% de mortalité. Séquelles neurologiques",
+             "Spécificités Diagnostic":"Streptocoque beta-hémolytique du groupe B 10 sérotypes. Flore vaginale et/ou rectal chez 10-40 des jeunes femmes adultes en bonne santé. A retenir: 7 cas sur 10 000 naissances vivantes",
+          "Traitement Prévention":"Pénicilline. Prévention: Screening maternel universel entre 35 et 37 semaines de grossesse. Prophylaxie maternelle intra-partum 4h avant l'accouchement si risqué. Follow-up serré de l'enfant si situation à"
+          },
+        {
+           "Noms":"Streptococcus Viridans - S. Anginosus - S. Mitis - S. Mutans - S. Salivarius - S. Bovis - S. Suis",
+           "Localisation":"S. Anginosus : Oropharynx S. Mitis : Oropharyngé, Digestif S. Mutans : Oral S. Salivarus : Oral S. Bovis : Digestif S. Suis : Oral, digestif (porc)",
+             "Symptomes maladies":"Facteurs de risque : colonisation maternelle à la naissance, RPPE, prématurité, chorio-amnionite. Sepsis néonatal tardif : Symptômes entre 7 et 89 jours de vie. Transmission verticale ou horizontale Début insidieux. Infection de type bactériémie. Évolution vers méningite. 1-6% de mortalité. Séquelles neurologiques",
+              "Spécificités Diagnostic":"S. Anginosus : Abcès cérébrale, de l'oropharynx et de la cavité péritonéale S. Mitis : Bactériémies chez l'enfant, neutropénique (+++ neutrophiles), endocardites, méningites et pneumonies. S. Mutans : Caries dentaires, bactériémies, endocardites. S. Salivarus : Bactériémies, Endocardites. S. Bovis : Bactériémies associées à un cancer digestif, méningite. Ce sont les streptocoques commensaux de la flore oropharyngée, les streptocoques oraux (ou Viridans) = streptocoque alpha hémolytique S. Anginosus (sous-groupe) comprend : S. Anginosus, S. constellatus et S. Intermedius. S. Mitis comprend : S. Mitis, S. Oralis et S. Pneumoniae. S. Mutans comprend : S. Mutans et S. Sobrinus S. Salivarus comprend : S. Salivarus S. Bovis comprend : S. Gallolyticus S. Suis est non groupé",
+             "Traitement Prévention":"Beta-lactame : Pénicilline ou Céphalosporine 3G. Glycopeptides. Retrait et analyse du matériel étranger (si possible/nécessaire)"
+            },
+         {
+            "Noms":"Chlamydia C. trachomatis",
+            "Localisation":"Muqueuses génitales",
+            "Symptomes maladies":"Infection \"asymptomatique\" (30% chez l'homme 80% chez la femme. Homme: Surtout urétrite aiguë. Prostatite. Épididymite. Rectite. Femme: Surtout cervicite. Maladie pelvienne chronique Stérilité tubaire. Chorio-amnionite. Transmission à l'accouchement : Conjonctivite, laryngite, pneumonie chez le nouveau-né. Homme/Femme : Trachome",
+            "Spécificités Diagnostic":"Bactérie intracellulaire obligatoire paroi très épaisse non colorable par gram. Pénètre par phagocytose dans cellule, se multiplie dans vacuoles, fait exploser la cellule hôte avec libération de nombreuses bactéries. ≠ Sérotypes en fonction des antigènes protéiques de la paroi : D-K → MST A-B-C → Trachome (au niveau de paupière) L1-L2-L3 → Lymphogranulomatose vénérienne. Réservoir strictement humain. Transmission par contact sexuel → MST et contact indirect → trachome (infection oculaire). Incubation de 10-15 jours Pas de portage sain au niveau génital (pas commensal) mais au niveau de la gorge (1-3%) Diagnostic: Infection génitales : Mise en évidence direct par biologie moléculaire = détection de l'ADN du génome bactérien Sensibilité du test > 90%. Prélèvement à partir de l'endocol vaginal, urètre chez l'homme, urine chez homme",
+            "Traitement Prévention":"Nécessité de pénétration intracellulaire car pathogène intracellulaire obligatoire → Surtout tétracyclines mais aussi fluoroquinolones, macrolides, rifampicine Toujours associer traitement anti-gonococcique. Recherche partenaires, contaminants ou contaminés pour les traiter"
+         },
+           {
+            "Noms":"C. Psittacii",
+             "Localisation": "Volaille, pigeons, perruches et perroquets",
+              "Symptomes maladies":"Lymphogranulomatose vénérienne. Portage de la gorge (1-3%). IST la plus fréquente en Belgique. Incidence la plus haute chez la femme entre 15 et 29 ans. Pneumonie atypique de 1 à 3 semaines après exposition",
+             "Spécificités Diagnostic":"Transmission à l'homme par inhalation de particules contaminées. Se diagnostique par sérologie : ELISA, fixation du complément",
+            "Traitement Prévention":"Déclaration et surveillance sanitaire obligatoire. Prévention : Mesure d'hygiène éducative. Dépistages des porteurs. Pas de vaccin disponibles Tétracyclines (doxycycline), macrolides (azithromycine, clarithromycine), fluoroquinolones."
+         },
+          {
+              "Noms":"C. Pneumoniae",
+               "Localisation":"n/a",
+               "Symptomes maladies":"Trachéo-bronchite, sinusite, pneumonie mais souvent asymptomatique.",
+                "Spécificités Diagnostic":"Bactérie intracellulaire possédant une paroi double sans peptidoglycane ! Elle se transmet via humain-humain par sécrétion respiratoire. Se diagnostique par sérologie, immunofluorescence ou PCR car ne se colore pas au GRAM. Ne se cultive pas.",
+              "Traitement Prévention":"Macrolides (azithromycine, clarithromycine), Tétracyclines (doxycycline), fluoroquinolones"
+           },
+             {
+              "Noms":"Vibrio",
+              "Localisation":"Saprophytes aquatiques : plancton, algues et mollusques",
+             "Symptomes maladies":"n/a",
+             "Spécificités Diagnostic":"En forme de bâtonnet incurvé, mobile par ciliature polaire. Oxydase + V. parahaemolyticus : diarrhées aiguës chez l'homme après 2-6 d'ingestion de fruits de mer contaminés V. lificus : septicémique après ingestion de fruits de mer",
+              "Traitement Prévention":"n/a"
+             },
+             {
+              "Noms":"V. Cholerae",
+               "Localisation":"n/a",
+               "Symptomes maladies":"Contamination : directe (main sales) ou indirecte (aliments et l'eau). Strictement humain, éliminée dans les selles des malades atteints de choléra. Inhibition de réabsorption du sodium. Diarrhée aqueuse avec perte d'électrolytes Forme ± grave avec un début brutal : diarrhée massive et une émission de selles afécales \"eau de riz\" de 10 à 50 selles par jours (3à 15 litres éliminés par 24h) accompagné de vomissements sans fièvre Mortalité de 1-5% (sans traitement >50% en 48h)",
+             "Spécificités Diagnostic": "Bactérie fragile, ne persiste pas longtemps dans l'environnement. Souches toxicogènes de V. Cholerae sont responsables du choléra humain. L'incubation de quelques heures à 5 jours en fonction de l'inoculum. Classification et pandémies : 200 sérogroupes (seul 01 et 0139 sont responsables du choléra) 01: Biotype classique responsable de 6 premières pandémies El Tor, Inaba, Ogawa, Hikojima sont responsables de la 7e pandémie. 0139 mutant apparu en Inde en 1992 dites \"Bengale\" (première épidémies déclarées au Bangladesh) Origine d'une 8e pandémie. Adhésion aux entérocytes de l'intestin grêle grâce à des pili Il libère la toxine AB cholérique thermolabile Accumulation d'AMPc : sécrétion d'ions chlorure et de HCO3- et d'eau D'autres toxines peuvent être produites. La toxine du choléra est liée à l'intégration dans le génome bactérien d'un bactériophage. Les pilis aussi mais d'un autre phage. Diagnostic: il faut faire une coproculture et une confirmation de sérogroupes",
+             "Traitement Prévention":"Réhydrations rapide et massive. Cas sévère: ATB (tétracyclines), diminue l'excrétion de vibrions dans les selles. Prévention : contrôle de la dissémination du germe. Vaccination des sujets sains"
+             },
+              {
+             "Noms":"Spirochètes",
+              "Localisation":"n/a",
+              "Symptomes maladies":"n/a",
+               "Spécificités Diagnostic":"Bactérie en spirale, paroi souple avec une motilité par endoflagelles",
+              "Traitement Prévention":"n/a"
+            },
+        {
+            "Noms":"Leptospira Interrogans",
+              "Localisation":"Réservoir animal sauvage et domestique: les animaux porteurs sains ou malades élininent les leptospires dans leur urine",
+              "Symptomes maladies":"Complexe d'espèces chez Leptospira Interrogans responsables de la leptospirose ictéro-hémorragique. Maladie rare en Europe mais en recrudescence à cause du réchauffement climatique et de l'urbanisation = +++ prolifération des rats et des ragondins dans nos villes et campagnes. Forme multiviscérale : Présentation d'une phase fébrile avec un syndrome algique, une atteinte cutanéomuqueuse et un syndrome méningé suivie d'une amélioration clinique.",
+              "Spécificités Diagnostic":"Bactérie très fine spirilaire aux extrémités en crochet Ne colore pas au gram (Visualisation par coloration argentée et microscope en contraste de phase) Parmi les 22 espèces de Letpospira, L. interrogans est la plus fréquente Pénétration par la peau (érosion cutanée ou par les muqueuses, même intactes) ou par voie digestive. Après une incubation de 7 -14 j dissémination par tous les organes: Asymptomatique, grippal ou forme multiviscérale sévère. Une rechute fébrile est possible au 15e jour avec altérations : Hépatiques (cytolyse + cholestase), Rénales (dans 15 à 40%), Neurologiques avec méningite lymphocytaire dans 25 % des cas. Hémorragiques, pulmonaires, cardiaques et oculaires. La mortalité varie de 5 à 15% Prélèvement : Hémoculture, LCR, urines, sérum Diagnostic: Examen direct : microscope à fond noir (LCR, sang) pas recommandé Culture: sur milieux spéciaux pendant 8 semaines Inoculation animale (jeunes cobayes ou à des hamsters) PCR: applicables aux échantillons de nature variée (sang, LCR, urine, humeur aqueuse) prélevés aux",
+             "Traitement Prévention":"Pénicilline G I.V ou de l'ampicilline ou de la ceftriaxone. L'alternative : doxycycline"
+           },
+          {
+           "Noms":"Borrelia",
+            "Localisation":"n/a",
+            "Symptomes maladies":"Borréliose de Lyme: Maladie en 3 phases : Primaire: Tache rouge circulaire, de taille croissante à l'endroit de la morsure (érythème migrant) 85% des cas. Symptômes grippaux céphalées, fièvre Secondaires quelques semaines ou mois : méningite subaiguë radiculonévrite: douleurs dans les bras ou les jambes polynévrite: paralysie des muscles de la face, diplopie myocardite: troubles du rythme cardiaque Tertiaires des mois jusqu'à des années : arthrite (souvent au niveau du genou), méningo-encéphalite chronique : paralysie.. acrodermite atrophique (lésions cutanées, inflammatoires, asymétriques, des membres, en",
+            "Spécificités Diagnostic":"différents temps de la maladie. Pour diagnostiquer le stade aigu. Sérologie: ELISA est la confirmation diagnostique plus courante (IgM à partir du 7j). Diagnostic: Culture difficile. PCR : neuroborreliose (LCR pas sensible), arthrites (L. articulaire c'est sensible), biopsie tissulaire Sérologie (surtout). En cas de résultat positif ou douteux, un test de confirmation est réalisé (Western blot)",
+            "Traitement Prévention":"Amoxicilline, doxycycline, ceftriaxone azithromycine. Prévention : Éviter les morsures. Examiner l'ensemble des parties du corps après un contact avec la nature et le jardin Retirer correctement la tique"
+            },
+         {
+            "Noms":"Treponema Pallidum",
+            "Localisation":"n/a",
+           "Symptomes maladies":"Syphilis précoce : <1 an d'évolution Syphilis tardive : >1 an d'évolution Neurosyphilis : Peut arriver à l'importe quel moment de l'infection Syphilis primaire : chancre au point d'inoculation, indolore, unique et induré, adénopathies locales, régression spontanée après 2-3 semaines Syphilis secondaire : Dissémination hématogène Chancre encore présent Lésion cutanées polymorphes (DD) Fièvre, malaise pharyngite, maux de tête Guérison spontanée mais récidives fréquentes Syphilis latente précoce : test sérologiques positifs mais pas d'évidence clinique d'infection Syphilis latente tardive, tertiaire : Apparaît après qql années, manifestations cliniques en rapport avec une réaction granulomateuse organisée autour de qql regard des convexités, d'évolution atrophique)",
+            "Spécificités Diagnostic":"Dépendant de son hôte. Mobile hélicoïdale. Non cultivable in vitro. Très fragile. Réservoir strictement humain. Transmission par contact entre 2 muqueuses (tréponèmes +++) Périodes d'incubation 10-90 jours. Diagnostic : Par sérologie infectieuse basée sur la muse en évidence d'Ac dans el sérum et/ou LCR apparaissant environ 1 mois après contamination Tests tréponémiques : utilisés pour le dépistage, non corrélés à l'activité de la maladie, restent positifs après la guérison Test non tréponémiques : test de confirmation, corrélé à l'activité de la malade suivi de la réponse au traitement",
+             "Traitement Prévention":"Syphilis précoce : Benzathine pénicilline en IM. Syphilis latente tardive ou de durée indéterminée et syphilis tertiaire sans Neurosyphilis : Benzathine pénicilline 2,4 millions en IM 3x à 1 semaine d'intervalle Neurosyphilis : Benzathine pénicilline 24M/j 10-14j"
+             },
+         
+          {
+             "Noms":"Neisseria Meninitidis",
+              "Localisation":"SNC",
+             "Symptomes maladies":"Méningite, Bactériémie = Méningococcémie Taux de mortalité de +/- 10%. Purpura Fulminans = Méningococcémie + CIVD. Taux de mortalité de 20-50%. Étiologie majeure de méningite de l'enfant et de l'adolescent",
+              "Spécificités Diagnostic":"Fragile, craint le froid, variations de pH, dessiccation Capsule: antigènes capsulaires déterminant 13 sérotypes. Réservoir strictement humain. Portage pharyngée 5-10% symptomatiques, germes de portages ≠ germes de méningites Transmission par contact direct et gouttelettes Incubation 2-10 jours Capsule Protéine de surface: fHbp = factor H binding",
+               "Traitement Prévention":"Céphalosporine 3G. Ampicilline. Antibioprophylaxie : Ciprofloxacine, ceftriaxone, rifampicine. Prévention : Vaccin"
+             },
+        {
+               "Noms":"Neisseria Gonorrhoéa",
+               "Localisation":"Muqueuses génitales, rectales, pharyngées ou conjonctivales",
+                "Symptomes maladies":"Infection asymptomatique chez 10 des hommes et 50% des femmes. Homme: Urétrite aiguë Prostatite. Épididymite Rectite. Femme: Cervicite. Maladie pelvienne chronique (salpingite). Stérilité tubaire. Rectite, Chorio-amnionite. Transmission lors de l'accouchement (conjonctivite du nouveau-né). Homme/Femme : Forme extra-génitales Angine, Syndrome systémique avec fièvres, endocardite, polyarthrite, éruption. Portage de gorge 5-10% +++ chez l'homme, incidence la plus haute entre 20 et 39 ans",
+             "Spécificités Diagnostic": "Dépendant de son hôte. Production d'endoprotéases contre les IgA1. Réservoir strictement humain. Transmission par contact avec muqueuses génitales, rectales, pharyngées ou conjonctivales Incubation courte (<7 jours). Pas de portage sain au niveau génital (pas commensal). Diagnostic: Mise en évidence directe par culture (sensibilité de 50-70%). Forme génitale à partir de frottis d'endocol, frottis urètres/rectum, frottis oropharynx. Forme extra-génitale: liquide articulaire, œil, hémocultures. Mise en évidence directe par biologie moléculaire àpd frottis endocol (femme), frottis urètre/rectum, urines (homme)",
+              "Traitement Prévention":"Céphalosporine 3G → 1 injection IM. Toujours associer traitement anti-chlamydia Recherche partenaires contaminants ou contaminés pour les traiter Déclaration et surveillance sanitaire obligatoire Prévention : mesure d'hygiène éducative. Dépistage des porteurs. Pas de vaccin disponible"
+           },
+       
+             {
+             "Noms":"Mycoplasma Pneumoniae",
+              "Localisation":"Se niche dans l'appareil respiratoire",
+              "Symptomes maladies":"1ère cause de bronchite et pneumonie légère avec guérison spontanée.",
+              "Spécificités Diagnostic":"M. Pneumoniae, M. genitalium, Ureaplasme Bactérie parasite intracellulaire sans paroi (pas de becta Lactamase car pas de paroi) Culture fastidieuse Possède une membrane cellulaire contenant des stérols. Aérobie stricts avec multiplication lente. Culture difficile in vitro Pas de synthèse de peptidoglycane → Insensibilité au beta-lactame Incubation de 2-3 semaines. La bactérie s'accroche aux cellules épithéliales, ciliées à l'aide d'une adhésine P1 et provoque la destruction de la cellule épithéliale. Coloration Gram impossible. Détection par sérologie ou PCR. Réservoir humain et singes",
+             "Traitement Prévention":"Macrolides, tétracyclines ou fluoroquinolones. La clindamycine et béta-lactames ne sont pas actifs."
+             },
+           {
+             "Noms":"Mycoplasma Genitalium",
+             "Localisation":"n/a",
+              "Symptomes maladies":"Portage asymptomatique (1-3% population globale). Homme : Urétrite. Épididymite. Prostatite. Rectite. Femme : Cervicite. Maladie pelvienne chronique. Stérilité tubaire. Chorio-amnionite. Mise en évidence directe par biologie moléculaire",
+             "Spécificités Diagnostic":"Colonisant tractus génital de patients n'ayant jamais eu de relations sexuelles. Transmission par contact sexuel",
+             "Traitement Prévention":"Nécessité de pénétration intracellulaire (Tétracyclines, fluoroquinolones, macrolides) Toujours associer traitement anti-gonococcique Recherche partenaires, contaminants ou contaminés pour les traiter"
+             }
+      
+]
