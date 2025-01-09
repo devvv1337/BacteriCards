@@ -2,8 +2,7 @@ import { motion, AnimatePresence } from 'framer-motion';
 import { useState, useEffect } from 'react';
 import HardLearningManager from './HardLearningManager';
 import FlashCard from './FlashCard';
-import { FaCheck, FaRedo } from 'react-icons/fa';
-import { IoMdClose } from 'react-icons/io';
+import { FaCheck } from 'react-icons/fa';
 import { MdKeyboardArrowDown } from 'react-icons/md';
 
 const HardLearning = () => {
